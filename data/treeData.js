@@ -1,15 +1,19 @@
+import {groupBy,forEach} from 'lodash'
+
 const data = [
-    {id:"100000001",name:"permission",index:1,level:0,parentId:""},
 ]
 
 
-for(let i = 0;i<100;i++){
+for(let i = 0;i<20;i++){
 data.push({
-  id:"10000000"+i,name:"permission"+i,index:1+i,level:parseInt(Math.random()*(5-1)+1),parentId:parseInt(Math.random()*(4-1)+1)
+  id:"10000000"+i,name:"permission"+i,level:parseInt(Math.random()*(5-1)+1),parentId:parseInt(Math.random()*(4-1)+1)
 })
 }
 
-console.log(data,"mock data")
+const groupData = groupBy(data,(d)=>d.level)
+
+console.log(groupData,"mock groupData")
+
 
 
 export default data

@@ -1,8 +1,8 @@
 // Import stylesheets
 import "./style.css";
-import "./timeFormat.js";
-import "./momentTest.js";
-import "./mapData.js"
+// import "./timeFormat.js";
+// import "./momentTest.js";
+// import "./mapData.js"
 import "./data/treeData.js";
 
 // Write Javascript code!
