@@ -1,0 +1,11 @@
+{
+  "name": "js-pc4pfp",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "babel": "^6.23.0",
+    "eslint": "^5.15.3",
+    "lodash": "^4.17.11",
+     "moment": "^2.24.0"
+  }
+}
